@@ -33,4 +33,4 @@ async def ban(ctx, member : discord.Member, *, reason = None):
     await ctx.send(embed=embed)
 bot.run('{tok}')
 """)
-print('The bot has been set up with one command - it can only ban.')
+print('The bot has been set up with one command - it can only ban at the moment :).')
