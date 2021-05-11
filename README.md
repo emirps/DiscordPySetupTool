@@ -4,6 +4,7 @@
 ## Usage
 Just run the file:
 > python3 main.py
+> 
 From there, you just provide a token!
 
 ## Commands:
