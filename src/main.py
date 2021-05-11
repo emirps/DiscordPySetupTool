@@ -17,7 +17,7 @@ import discord.utils
 from discord.ext import commands
 bot=commands.Bot(command_prefix='{prefix}')
 async def on_ready():
-    print('Logged in')
+    print('Logged in using token {tok}')
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
